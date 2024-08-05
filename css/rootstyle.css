@@ -1,0 +1,62 @@
+.ui-logo {
+  width: 90px !important;
+  max-width: 90px !important;
+  min-width: 90px !important;
+}
+
+.customer-cards {
+  height: 340px;
+}
+
+.card-body {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.img-customer {
+  border-radius: 0px !important;
+  max-width: 85%;
+  max-height: 110px;
+}
+
+.navbar {
+  max-height: 80px;
+}
+
+.banner {
+  padding-top: 50px;
+}
+.whatsapp-contact {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  border-radius: 50px;
+  height: 58px;
+  width: 58px;
+  padding: 13px;
+  background-color: #25D366;
+  z-index: 1;
+  box-shadow: 1px 1px 4px rgba(153, 153, 153, 0.432);
+}
+
+.whatsapp-contact:hover {
+  transform: scale(1.15);
+  transition: ease .5s;
+  cursor: pointer;
+}
+
+.whatsapp-contact img {
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .ui-logo {
+    width: 70px !important;
+    max-width: 70px !important;
+    min-width: 70px !important;
+  }
+  .navbar {
+    max-height: 90px;
+    padding-top: 15px !important;
+  }
+}
